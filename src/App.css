@@ -1,0 +1,96 @@
+:root {
+    --color-main: #f55a5a;
+}
+nav {
+    background-color: var(--color-main);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.nav--logo {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.nav--title {
+    font-size: 15px;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 3px solid gainsboro;
+    padding-bottom: 15px;
+}
+
+.card--information {
+    align-self: center;
+}
+.card--img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.card--location {
+    display: inline;
+    margin-left: 4px;
+    font-size: 11px;
+    color: gray;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.card--link {
+    color: gray;
+    font-size: 12px;
+}
+
+.card--icon {
+    color: var(--color-main);
+    height: 13px;
+}
+
+.card--title {
+    font-size: 26px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.card--date {
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+.card--description {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--color-main);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
